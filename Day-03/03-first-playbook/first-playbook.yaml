@@ -1,5 +1,6 @@
 ---
 - hosts: all
+#below become allows to take root as login user name
   become: true
   tasks:
     - name: Install apache httpd
